@@ -1,0 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+.fontColor {
+    color: #0fb3e8;
+}
+.bgColor {
+    background-color: #0fb3e8;
+}
+.heightBtn {
+    height: 90vh;
+}
+.btnColor{
+    background-color: #0fb3e8;
+}
+.btnColor:hover {
+    color:#0fb3e8;
+}
