@@ -18,10 +18,10 @@
             <div class="lg:grid lg:grid-cols-2 lg:gap-8">
               <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
                 <div class="lg:py-24">
-                  <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-gray-900 sm:mt-5 sm:text-6xl lg:mt-0 xl:text-6xl">
+                  <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-gray-900 sm:text-6xl  xl:text-6xl">
                     <span class="block">Why <span class="fontColor">Now</span> Is The Time To <span class="fontColor">Upgrade</span> <span class="fontColor">Your</span> Site </span>
                   </h1>
-                  <div class="text-base text-gray-900 sm:text-xl lg:text-lg xl:text-xl shadow-2xl p-10 rounded-lg mt-8">
+                  <div class="text-base text-gray-900 sm:text-xl lg:text-lg xl:text-xl shadow-2xl p-10 rounded-lg mt-8 md:mt-12">
                     <p>In this guide you will find:</p>
                     <ul class="pt-4 list-disc">
                         <li>Guidance on how to decide when to upgrade your business’ website</li>
@@ -50,8 +50,9 @@
         <!-- Feature section with screenshot -->
         <!-- Feature section with grid -->
         <div class="relative bg-gray-900 py-16 sm:py-24 lg:py-32" id="formSection">
-          <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl ">
+          <div class="mx-auto lg:grid-cols-2 px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
             <h2 class="text-base font-semibold tracking-wider text-white uppercase text-2xl">A free guide</h2>
+          <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">  
               <div class="float-right">
                 <p class="mt-14 max-w-prose mx-auto text-xl text-gray-400">
                   Your website is your online storefront to the world, and it should be treated as such. It can be your most cost-effective marketing tool however if your site is outdated or lagging behind the competition, 
@@ -60,19 +61,17 @@
                   this helpful guide that explores the factors you should consider and the business benefits of upgrading your site.
                 </p>
                 <div class="mt-10 sm:mt-0 sm:ml-3 flex justify-center">
-                  <button type="submit" class="btnColor mt-32 block w-4/5 py-3 px-4 rounded-md shadow-lg text-white font-medium focus:outline-none focus:ring-none transition duration-500 ease-in-out hover:bg-white transform hover:-translate-y-1 hover:scale-110">Download your guide</button>
+                  <button type="submit" class="order-last lg:mt-12 btnColor mt-8 block w-60 sm:w-96 py-3 px-4 rounded-md shadow-lg text-white font-medium focus:outline-none focus:ring-none transition duration-500 ease-in-out hover:bg-white transform hover:-translate-y-1 hover:scale-110">Download your guide</button>
                 </div>
               </div>
-            <div class="mt-12">
+            <div class="mt-8 flex justify-center lg:order-first">
               <div class="grid grid-cols-1 gap-2">
-
-
                   <div class="mt-4 sm:mt-6">
                     <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
                       <div class="sm:flex">
                         <div class="min-w-0 flex-1">
                           <label for="email" class="sr-only">Email address</label>
-                          <input id="email" type="email" placeholder="Email" class="block w-4/5 px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
+                          <input id="email" type="email" placeholder="Email" class="w-60 sm:w-96 block px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
                         </div>
                       </div>
                       </form>
@@ -83,7 +82,7 @@
                       <div class="sm:flex">
                         <div class="min-w-0 flex-1">
                           <label for="firstName" class="sr-only">First Name</label>
-                          <input id="firstName" type="text" placeholder="First name" class="block w-4/5 px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
+                          <input id="firstName" type="text" placeholder="First name" class="w-60 sm:w-96 block px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
                         </div>
                       </div>
                       </form>
@@ -94,7 +93,7 @@
                       <div class="sm:flex">
                         <div class="min-w-0 flex-1">
                           <label for="lastName" class="sr-only">Last Name</label>
-                          <input id="lastName" type="text" placeholder="Last name" class="block w-4/5 px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
+                          <input id="lastName" type="text" placeholder="Last name" class="w-60 sm:w-96 block px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
                         </div>
                       </div>
                       </form>
@@ -105,7 +104,7 @@
                       <div class="sm:flex">
                         <div class="min-w-0 flex-1">
                           <label for="companyName" class="sr-only">Company Name</label>
-                          <input id="companyName" type="text" placeholder="Company name" class="block w-4/5 px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
+                          <input id="companyName" type="text" placeholder="Company name" class="w-60 sm:w-96 block px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
                         </div>
                       </div>
                       </form>
@@ -116,7 +115,7 @@
                       <div class="sm:flex">
                         <div class="min-w-0 flex-1">
                           <label for="number" class="sr-only">Phone Number</label>
-                          <input id="number" type="text" placeholder="Phone number" class="block w-4/5 px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
+                          <input id="number" type="text" placeholder="Phone number" class="w-60 sm:w-96 block px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
                         </div>
                       </div>
                       </form>
@@ -126,6 +125,7 @@
               </div>
             </div>
           </div>
+        </div>
         </div>
       </main>
     </div>
