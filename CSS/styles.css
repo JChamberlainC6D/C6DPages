@@ -16,3 +16,6 @@ html{
 .btnColor:hover {
     color:#0fb3e8;
 }
+.borderColor:active{
+    border-color: #0fb3e8;
+}
