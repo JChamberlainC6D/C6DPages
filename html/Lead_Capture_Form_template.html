@@ -9,20 +9,31 @@
 </head>
 
 <body>
-<div id="header"></div>
+  <nav class="bg-white shadow-lg ">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex">
+          <div class="flex-shrink-0 flex items-center">
+            <img class="block lg:hidden h-8 w-auto" src="/img/Carbon_Six_logo.eps" alt="Company logo">
+            <img class="hidden lg:block h-8 w-auto" src="/img/Carbon_Six_logo.eps" alt="Company logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
       <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="bg-white">
-  <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h2 class="text-base font-semibold text-indigo-600 tracking-wide uppercase">Pricing</h2>
-      <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Take control of your team.</p>
+      <h2 class="text-base font-semibold text-gray-600 tracking-wide uppercase">A free guide</h2>
+      <p class="mt-1 text-4xl font-extrabold text-gray-800 sm:text-5xl sm:tracking-tight lg:text-6xl capitalize">Why <span class="fontColor">Now</span> Is the Time to <span class="fontColor">Upgrade</span> Your Site</p>
       <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Start building for free, then add a site plan to go live. Account plans unlock additional features.</p>
     </div>
   </div>
 </div>
 
 <!-- Testimonial/stats section -->
-<div class="relative mt-20">
+<div class="relative">
   <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
     <div class="relative sm:py-16 lg:py-0">
       <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
@@ -39,16 +50,14 @@
       <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
         <!-- Testimonial card-->
         <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
-          <img class="absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100" alt="">
-          <div class="absolute inset-0 bg-rose-500 mix-blend-multiply"></div>
-          <div class="absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-90"></div>
+          <img class="absolute inset-0 h-full w-full object-cover rounded-lg" src="/img/Guide_img_2.png" alt="">
+          <div class="absolute inset-0"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-blue-400 via-blue-400 opacity-90"></div>
           <div class="relative px-8">
-            <div>
-              <img class="h-12" src="https://tailwindui.com/img/logos/workcation.svg?color=white" alt="Workcation">
-            </div>
+
             <blockquote class="mt-8">
               <div class="relative text-lg font-medium text-white md:flex-grow">
-                <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-rose-400" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-blue-600" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
                   <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                 </svg>
                 <p class="relative">
@@ -57,7 +66,7 @@
               </div>
 
               <footer class="mt-4">
-                <p class="text-base font-semibold text-rose-200">Sarah Williams, CEO at Workcation</p>
+                <p class="text-base font-semibold text-white">Sarah Williams, CEO at Workcation</p>
               </footer>
             </blockquote>
           </div>
@@ -89,7 +98,16 @@
 
 
 <!--Footer-->
-<div id="footer"></div>
+<!-- This example requires Tailwind CSS v2.0+ -->
+<footer class="bg-white">
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+    <div class="mt-8 md:mt-0 md:order-1">
+      <p class="text-right text-base text-gray-400">
+        &copy; 2021 Carbon Six Digital. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
 
    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
