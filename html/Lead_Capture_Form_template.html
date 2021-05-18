@@ -5,133 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/styles.css">
-    <title>Document</title>
+    <title>Landing page</title>
 </head>
 
 <body>
+<div id="header"></div>
+      <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="bg-white">
-    <div class="relative overflow-hidden">
-      <div id="header"></div>
-      <main>
-        <div class="pt-10 sm:pt-16 lg:pt-8  lg:overflow-hidden lg:h-full">
-          <div class="mx-auto max-w-7xl lg:px-8">
-            <div class="grid grid-cols-1 gap-2 lg:grid-cols-2 xl:mt-24">
-              <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
-                <div class="">
-                  <h1 class="mt-4 text-4xl tracking-tight font-extrabold text-gray-900 sm:text-6xl  xl:text-6xl">
-                    <span class="block">Why <span class="fontColor">Now</span> Is The Time To <span class="fontColor">Upgrade</span> <span class="fontColor">Your</span> Site </span>
-                  </h1>
-                  <div class="text-base text-gray-900 text-md sm:text-xl shadow-2xl p-10 rounded-lg mt-8 md:mt-12 lg:mb-8">
-                    <p>In this guide you will find:</p>
-                    <ul class="pt-4 list-disc">
-                        <li>Guidance on how to decide when to upgrade your business’ website</li>
-                        <li>The business benefits of upgrading your site</li>
-                        <li>A checklist that be used to assess whether it’s the right to upgrade your site</li>
-                        <li>Different ways you can upgrade your site</li>
-                    
-                    </ul>
-                </div>
-                  
-                </div>
-              </div>
-              <div class="lg:m-0 lg:relative">
-               <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 flex justify-center">
-                  <!--Guide image and download button-->
-                  <img class="h-auto w-60 sm:w-96 max-w-xl" src="/img/Guide_img_2.png" alt="Picture of online guide book">
-               </div>
-               <div class="mt-10 sm:mt-0 sm:ml-3 flex items-end justify-center mb-6 lg:mt-24">
-                <a href="#formSection" class="text-center btnColor block w-60 sm:w-96 py-3 px-4 rounded-md shadow-lg text-white font-medium focus:outline-none focus:ring-none transition duration-500 ease-in-out hover:bg-white transform hover:-translate-y-1 hover:scale-110">Download your guide</a>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <!--Sign up section-->
-        <div class="relative bg-gray-900 py-16 sm:py-24 lg:py-32" id="formSection">
-          <div class="mx-auto lg:grid-cols-2 px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-            <h2 class="text-base font-semibold tracking-wider text-white uppercase text-2xl">A free guide</h2>
-          <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">  
-              <div class="float-right">
-                <p class="mt-8 max-w-prose mx-auto text-md sm:text-xl text-gray-400">
-                  Your website is your online storefront to the world, and it should be treated as such. It can be your most cost-effective marketing tool however if your site is outdated or lagging behind the competition, 
-                  you may stand to lose a significant amount of traffic and profit to your competitors. No website was built forever, and if you are considering upgrading your site, then it is very likely that now could be 
-                  the right time. Although there are no hard and fast rules on exactly when you should upgrade your website, to help you decide when to look into upgrading and how your site can be updated, we have put together 
-                  this helpful guide that explores the factors you should consider and the business benefits of upgrading your site.
-                </p>
-
-              </div>
-            <div class="mt-8 flex justify-center lg:order-first">
-              <div class="grid grid-cols-1 gap-2">
-                  <div class="mt-4 sm:mt-6">
-                    <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
-                      <div class="sm:flex">
-                        <div class="min-w-0 flex-1">
-                          <label for="email" class="sr-only">Email address</label>
-                          <input id="email" type="email" placeholder="Email" class="w-60 sm:w-96 block px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
-                        </div>
-                      </div>
-                      </form>
-                  </div>
-
-                  <div class="mt-4 sm:mt-6">
-                    <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
-                      <div class="sm:flex">
-                        <div class="min-w-0 flex-1">
-                          <label for="firstName" class="sr-only">First Name</label>
-                          <input id="firstName" type="text" placeholder="First name" class="w-60 sm:w-96 block px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
-                        </div>
-                      </div>
-                      </form>
-                  </div>
-
-                  <div class="mt-4 sm:mt-6">
-                    <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
-                      <div class="sm:flex">
-                        <div class="min-w-0 flex-1">
-                          <label for="lastName" class="sr-only">Last Name</label>
-                          <input id="lastName" type="text" placeholder="Last name" class="w-60 sm:w-96 block px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
-                        </div>
-                      </div>
-                      </form>
-                  </div>
-                  
-                  <div class="mt-4 sm:mt-6">
-                    <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
-                      <div class="sm:flex">
-                        <div class="min-w-0 flex-1">
-                          <label for="companyName" class="sr-only">Company Name</label>
-                          <input id="companyName" type="text" placeholder="Company name" class="w-60 sm:w-96 block px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
-                        </div>
-                      </div>
-                      </form>
-                  </div>
-
-                  <div class="mt-4 sm:mt-6">
-                    <form action="#" class="sm:max-w-xl sm:mx-auto lg:mx-0">
-                      <div class="sm:flex">
-                        <div class="min-w-0 flex-1">
-                          <label for="number" class="sr-only">Phone Number</label>
-                          <input id="number" type="text" placeholder="Phone number" class="w-60 sm:w-96 block px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-400 focus:ring-offset-gray-900">
-                        </div>
-                      </div>
-                      </form>
-                  </div>
-                  <div class="mt-10 flex justify-center">
-                    <button type="submit" class="order-last btnColor block w-60 sm:w-96 py-3 px-4 rounded-md shadow-lg text-white font-medium focus:outline-none focus:ring-none transition duration-500 ease-in-out hover:bg-white transform hover:-translate-y-1 hover:scale-110">Download your guide</button>
-                  </div>
-                  
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </main>
+  <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h2 class="text-base font-semibold text-indigo-600 tracking-wide uppercase">Pricing</h2>
+      <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Take control of your team.</p>
+      <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Start building for free, then add a site plan to go live. Account plans unlock additional features.</p>
     </div>
   </div>
+</div>
 
-  <!--Footer-->
-  <div id="footer"></div>
+<!-- Testimonial/stats section -->
+<div class="relative mt-20">
+  <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
+    <div class="relative sm:py-16 lg:py-0">
+      <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
+        <div class="absolute inset-y-0 right-1/2 w-full bg-gray-50 rounded-r-3xl lg:right-72"></div>
+        <svg class="absolute top-8 left-1/2 -ml-3 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
+          <defs>
+            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+            </pattern>
+          </defs>
+          <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
+        </svg>
+      </div>
+      <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
+        <!-- Testimonial card-->
+        <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
+          <img class="absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100" alt="">
+          <div class="absolute inset-0 bg-rose-500 mix-blend-multiply"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-90"></div>
+          <div class="relative px-8">
+            <div>
+              <img class="h-12" src="https://tailwindui.com/img/logos/workcation.svg?color=white" alt="Workcation">
+            </div>
+            <blockquote class="mt-8">
+              <div class="relative text-lg font-medium text-white md:flex-grow">
+                <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-rose-400" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                  <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                </svg>
+                <p class="relative">
+                  Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet.
+                </p>
+              </div>
+
+              <footer class="mt-4">
+                <p class="text-base font-semibold text-rose-200">Sarah Williams, CEO at Workcation</p>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
+      <!-- Content area -->
+      <div class="pt-12 sm:pt-16 lg:pt-20">
+        <h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
+          On a mission to empower teams
+        </h2>
+        <div class="mt-6 text-gray-500 space-y-6">
+          <p class="text-lg">
+            Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae.
+          </p>
+          <p class="text-base leading-7">
+            Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+          </p>
+          <p class="text-base leading-7">
+            Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Footer-->
+<div id="footer"></div>
 
    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
